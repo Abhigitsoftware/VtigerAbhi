@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes">
+  <test thread-count="5" name="Test runner">
+    <classes>
+      <class name="com.vtiger_sdet31.VerifyOpportunityPomTest"/>
+      <class name="com.vtiger_sdet31.CreateOrganisationWithIndustryPomTest"/>
+      <class name="com.vtiger_sdet31.CampaignTest"/>
+      <class name="com.vtiger_sdet31.ContactsOrgtest"/>
+      <class name="com.vtiger_sdet31.Productstest"/>
+      <class name="com.vtiger_sdet31.CreateOpportunityPomTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+<!-- Method numer 2: here we directly mention parallel="classes" & we can change thread count -->
